@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NAGP Preparation" duration-ms="26893" started-at="2021-09-05T15:07:43 IST" finished-at="2021-09-05T15:08:10 IST">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="26893" started-at="2021-09-05T15:07:43 IST" finished-at="2021-09-05T15:08:10 IST">
+      <class name="com.nagp.prepnew.test.NagarroHomePageTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.nagp.prepnew.test.NagarroHomePageTest@24a35978]" name="setExtent" is-config="true" duration-ms="0" started-at="2021-09-05T15:07:43 IST" finished-at="2021-09-05T15:07:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.prepnew.test.NagarroHomePageTest@24a35978]" name="setup" is-config="true" duration-ms="7586" started-at="2021-09-05T15:07:44 IST" finished-at="2021-09-05T15:07:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateNagarroContactUsPageClickTest()[pri:0, instance:com.nagp.prepnew.test.NagarroHomePageTest@24a35978]" name="validateNagarroContactUsPageClickTest" duration-ms="1117" started-at="2021-09-05T15:07:51 IST" finished-at="2021-09-05T15:07:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNagarroContactUsPageClickTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nagp.prepnew.test.NagarroHomePageTest@24a35978]" name="tearDown" is-config="true" duration-ms="768" started-at="2021-09-05T15:07:52 IST" finished-at="2021-09-05T15:07:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.prepnew.test.NagarroHomePageTest@24a35978]" name="setup" is-config="true" duration-ms="5745" started-at="2021-09-05T15:07:53 IST" finished-at="2021-09-05T15:07:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateNagarroHomePageLogoTest()[pri:0, instance:com.nagp.prepnew.test.NagarroHomePageTest@24a35978]" name="validateNagarroHomePageLogoTest" duration-ms="149" started-at="2021-09-05T15:07:59 IST" finished-at="2021-09-05T15:07:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNagarroHomePageLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nagp.prepnew.test.NagarroHomePageTest@24a35978]" name="tearDown" is-config="true" duration-ms="794" started-at="2021-09-05T15:07:59 IST" finished-at="2021-09-05T15:08:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagp.prepnew.test.NagarroHomePageTest -->
+      <class name="com.nagp.prepnew.test.NagarroContactUsPageTest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.nagp.prepnew.test.NagarroContactUsPageTest@31f924f5]" name="setExtent" is-config="true" duration-ms="9" started-at="2021-09-05T15:07:43 IST" finished-at="2021-09-05T15:07:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nagp.prepnew.test.NagarroContactUsPageTest@31f924f5]" name="setup" is-config="true" duration-ms="6634" started-at="2021-09-05T15:08:00 IST" finished-at="2021-09-05T15:08:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateContactUsButtonClickTest()[pri:0, instance:com.nagp.prepnew.test.NagarroContactUsPageTest@31f924f5]" name="validateContactUsButtonClickTest" duration-ms="3288" started-at="2021-09-05T15:08:06 IST" finished-at="2021-09-05T15:08:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactUsButtonClickTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nagp.prepnew.test.NagarroContactUsPageTest@31f924f5]" name="tearDown" is-config="true" duration-ms="776" started-at="2021-09-05T15:08:10 IST" finished-at="2021-09-05T15:08:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagp.prepnew.test.NagarroContactUsPageTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- NAGP Preparation -->
+</testng-results>

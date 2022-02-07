@@ -1,0 +1,7 @@
+com\nagp\prepnew\pages\NagarroGingerBotPage.class
+com\nagp\prepnew\util\TestUtil.class
+com\nagp\prepnew\customlistener\ExtentManager.class
+com\nagp\prepnew\pages\NagarroContactUsPage.class
+com\nagp\prepnew\pages\NagarroHomePage.class
+com\nagp\prepnew\base\TestBase.class
+com\nagp\prepnew\customlistener\ExtentListener.class
