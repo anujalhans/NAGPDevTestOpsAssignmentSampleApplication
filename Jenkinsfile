@@ -9,14 +9,10 @@ pipeline{
         checkout scm
         }
     }
-    stage('Build'){
-        steps{
-        sh "mvn install"
-        }
-    }
+    
     stage('Unit Test'){
         steps{
-        sh "mvn test"
+        sh "mvn clean test"
         }
     }
         stage('Sonar Analysis'){
