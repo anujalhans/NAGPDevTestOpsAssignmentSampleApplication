@@ -2,6 +2,7 @@ pipeline{
     agent any
     tools{
         maven 'MAVEN'
+        jdk 'JAVA_HOME'
     }
     stages{
     stage('checkout'){
@@ -9,8 +10,13 @@ pipeline{
         checkout scm
         }
     }
+        stage('Build'){
+        steps{
+        sh "mvn clean package"
+        }
+    }
     
-    stage('Unit Test'){
+    stage('Automated Test'){
         steps{
         sh "mvn clean test"
         }
