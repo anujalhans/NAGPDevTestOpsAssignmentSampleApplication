@@ -12,13 +12,13 @@ pipeline{
     }
         stage('Build'){
         steps{
-        sh "mvn clean install"
+        sh "mvn install"
         }
     }
     
     stage('Automated Test'){
         steps{
-        sh "mvn test"
+        sh "clean test"
         }
     }
         stage('Sonar Analysis'){
