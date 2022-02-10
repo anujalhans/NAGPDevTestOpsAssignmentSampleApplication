@@ -1,20 +1,35 @@
 pipeline{
     agent any
+    tools{
+        maven 'MAVEN'
+    }
     stages{
-    stage("code checkout"){
+    stage('checkout'){
         steps{
-        sh "echo hello"
+        checkout scm
         }
     }
-    stage("code build"){
+    stage('Build'){
         steps{
-        sh "echo build"
+        sh "mvn install"
         }
     }
-    stage("Unit Test"){
+    stage('Unit Test'){
         steps{
-        sh "echo unit"
+        sh "mvn test"
         }
     }
+        stage('Sonar Analysis'){
+            steps{
+                withSonarQubeEnv("SonarQube"){
+                    sh "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.2:sonar"
+                }
+            }
+        }
+    }
+    post{
+        success{
+            sh "echo success"
+        }
     }
 }
