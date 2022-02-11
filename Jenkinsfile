@@ -15,6 +15,7 @@ pipeline{
         withMaven("MAVEN") {
                 bat'mvn install'
         }
+        }
     }
     
     stage('Automated Test'){
