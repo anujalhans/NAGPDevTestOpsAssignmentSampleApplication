@@ -11,16 +11,14 @@ pipeline{
         }
     }
         stage('Build'){
-        steps{
-        withMaven("MAVEN") {
-                bat'mvn install'
-        }
+            steps{
+                bat 'mvn clean install'
         }
     }
     
     stage('Automated Test'){
         steps{
-        sh "clean test"
+        bat 'mvn clean test'
         }
     }
         stage('Sonar Analysis'){
