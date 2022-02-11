@@ -12,25 +12,15 @@ pipeline{
     }
         stage('Build'){
             steps{
-                bat 'mvn clean install'
+                bat 'mvn clean'
         }
     }
     
     stage('Automated Test'){
         steps{
-        bat 'mvn clean test'
+        bat 'mvn test'
         }
     }
-        stage("Sonar Analysis"){
-            steps{
-            withSonarQubeEnv("SonarQube")
-                {
-                    withMaven(maven:'Maven') {
-                        bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.8.0.2131:sonar"
-                    }
-                }
-            }
-        }
     }
     post{
         success{
